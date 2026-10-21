@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+double main(void) {
+    int x;
+
+    printf("Введите дробное число: ");
+    scanf("%lf", &x);
+
+    printf("Вы ввели: %f\n", x);
+    return 0;
+}
